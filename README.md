@@ -3,19 +3,19 @@
 # Installation
 
 ```
-npm init marko -- --template basic
+pnpm init marko -- --template basic
 cd marko-app
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 ## Overview
 
 This project is powered by [@marko/run](https://github.com/marko-js/run).
 
-- Run `npm run dev` to start the development server
-- Run `npm run build` to build a production-ready node.js server
-- Run `npm run preview` to run the production server
+- Run `pnpm run dev` to start the development server
+- Run `pnpm run build` to build a production-ready node.js server
+- Run `pnpm run preview` to run the production server
 
 ## Adding Pages
 
