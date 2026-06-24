@@ -1,22 +1,42 @@
-# Thanks for checking out Marko
+# Qrati Connect — Marko Example
 
-# Installation
+Embeds [Qrati Connect](https://qrati.com) into a Marko app using the no-code
+**embed script**, with a host-controlled light/dark theme and a demo login for
+organizations that use custom auth.
 
+## Integration method: Embed script
+
+A single `async` script tag mounts the widget where it sits; config travels in
+`data-*` attributes:
+
+```html
+<script async
+  src="https://cdn.jsdelivr.net/npm/@qratilabs/qrati-connect/embed/embed.js"
+  data-organization-id="your-org-id"
+  data-router="hash"></script>
 ```
-pnpm init marko -- --template basic
-cd marko-app
-pnpm install
-pnpm run dev
+
+After sign-in this example injects that tag (see `src/routes/+page.marko`), adding
+`data-uid` / `data-fname` / `data-lname` for the known user.
+
+## Run it
+
+```bash
+bun install
+bun dev
 ```
 
-## Overview
+## Configuration
 
-This project is powered by [@marko/run](https://github.com/marko-js/run).
+| Variable                 | Description                                                       |
+| ------------------------ | ----------------------------------------------------------------- |
+| `VITE_ORGANIZATION_ID`   | Your Qrati organization ID                                        |
+| `VITE_QRATI_EMBED_URL`   | CDN URL of the embed script (`embed/embed.js`)                     |
+| `VITE_API_ENDPOINT`      | Demo-login endpoint for custom-auth orgs. Leave empty to skip it. |
 
-- Run `pnpm run dev` to start the development server
-- Run `pnpm run build` to build a production-ready node.js server
-- Run `pnpm run preview` to run the production server
+## Other integration methods
 
-## Adding Pages
+- **React component** — `import { QratiConnect }` (see the React / Next / Preact examples).
+- **Web component** — `<qrati-connect>` from the CDN (see the Svelte / Solid / Qwik / Lit examples).
 
-Pages map to the directory structure. You can add additional pages by creating files/directories under `src/routes` with `+page.marko` files. Learn more in the [`@marko/run` docs](https://github.com/marko-js/run/#file-based-routing).
+Docs: <https://www.npmjs.com/package/@qratilabs/qrati-connect>
