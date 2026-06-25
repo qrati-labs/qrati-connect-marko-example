@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import markoRun from "@marko/run/vite";
-import cloudflare from "@marko/run-adapter-cloudflare";
+import staticAdapter from "@marko/run-adapter-static";
 
 export default defineConfig({
-  plugins: [markoRun({ adapter: cloudflare() })],
+  plugins: [markoRun({ adapter: staticAdapter() })],
 });

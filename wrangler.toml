@@ -1,8 +1,2 @@
 name = "qrati-connect-marko-example"
-main = "dist/index.js"
-compatibility_date = "2024-09-23"
-compatibility_flags = ["nodejs_compat"]
-
-[assets]
-directory = "dist/public"
-binding = "ASSETS"
+pages_build_output_dir = "dist"
