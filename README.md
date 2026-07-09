@@ -22,8 +22,8 @@ After sign-in this example injects that tag (see `src/routes/+page.marko`), addi
 ## Run it
 
 ```bash
-bun install
-bun dev
+pnpm install
+pnpm dev
 ```
 
 ## Configuration
