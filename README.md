@@ -1,5 +1,9 @@
 # Qrati Connect — Marko Example
 
+[![Qrati Connect — embeddable event photo galleries](public/qrati-connect-og.png)](https://qrati.com/connect)
+
+Embed a live event photo gallery in Marko with guest uploads, full-screen lightbox, emoji reactions, and photo-contest rankings. [Explore Qrati Connect](https://qrati.com/connect) or [view the live Marko example](https://qrati.com/connect/marko-example).
+
 Embeds [Qrati Connect](https://qrati.com) into a Marko app using the no-code
 **embed script**, with a host-controlled light/dark theme.
 
