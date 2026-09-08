@@ -1,6 +1,0 @@
-name = "qrati-connect-marko-example"
-compatibility_date = "2024-09-23"
-pages_build_output_dir = "dist/public"
-
-[assets]
-directory = "dist/public"
