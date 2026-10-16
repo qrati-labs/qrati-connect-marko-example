@@ -23,21 +23,21 @@
 
 ## Timing
 
-Elapsed wall time, UTC; measurement began at the injected preflight start (`2026-10-16T07:50:39Z`) and ends at report/PR phase close. Preflight itself measured by the provided script. Phase durations are actual recorded elapsed durations; unclassified time is total minus recorded phase durations.
+Elapsed wall time, UTC; measurement began at the injected preflight start (`2026-10-16T07:50:39Z`) and ended when the report/PR phase closed (`2026-10-16T07:54:37Z`). Preflight was measured by the provided script. Durations below are actual timer-recorded elapsed times. Unclassified time is the interval between marked phases; timing-table update after the snapshot is outside the measurement boundary.
 
-| Phase | Elapsed |
-|---|---:|
-| Preflight | 00:01:12 |
-| Graph/scope | 00:00:17 |
-| Source review | 00:00:11 |
-| Research | 00:00:00 |
-| Tests | 00:00:19 |
-| Implementation | 00:00:00 |
-| Verification | 00:00:00 |
-| Report/PR | pending close |
-| Total | pending close |
-| Unclassified | pending close |
+| Phase | Start UTC | End UTC | Elapsed |
+|---|---|---|---:|
+| Preflight | 07:50:39Z | 07:51:51Z | 00:01:12 |
+| Graph/scope | 07:52:55Z | 07:53:12Z | 00:00:17 |
+| Source review | 07:53:13Z | 07:53:24Z | 00:00:11 |
+| Research | not separately marked | not separately marked | included in gaps |
+| Tests | 07:53:24Z | 07:53:43Z | 00:00:19 |
+| Implementation | not separately marked | not separately marked | 00:00:00 (no code change) |
+| Verification | not separately marked | not separately marked | 00:00:00 (verification included in report/PR phase) |
+| Report/PR | 07:53:43Z | 07:54:37Z | 00:00:54 |
+| **Total** | **07:50:39Z** | **07:54:37Z** | **00:03:58** |
+| Unclassified intervals between marked phases | — | — | 00:01:04 |
 
 ## Delivery status
 
-Report-only feature branch; no code change. PR state is pending until commit/push and fresh GitHub verification are complete.
+Report-only feature branch; no code change. PR [#1](https://github.com/qrati-labs/qrati-connect-marko-example/pull/1) is open and mergeable at head `1d91673ba3f933d3f2f8685d72f4cf8f9c1bd606`. GitGuardian passed; Workers Build was pending at last check.
