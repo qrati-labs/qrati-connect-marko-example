@@ -26,8 +26,8 @@ No confirmed defect in this bounded asset-delivery path. The repository contains
 All timestamps UTC; IST is UTC+05:30.
 - Preflight (provided by scheduler): 02:43:38–02:44:00 UTC (08:13:38–08:14:00 IST), 22 seconds.
 - Candidate selection, source mapping, and evidence review: 02:44:00–02:45:06 UTC (08:14:00–08:15:06 IST), 66 seconds.
-- Report/PR delivery and readback: recorded at completion in the PR; not yet measured.
-- Total audit timing will be updated with actual completion time before delivery; no estimate is substituted.
+- Report, tracker, PR creation, and readback: 02:45:06–02:45:57 UTC (08:15:06–08:15:57 IST), 51 seconds.
+- Total measured wall-clock: 02:43:38–02:45:57 UTC (08:13:38–08:15:57 IST), 2 minutes 19 seconds.
 
 ## Delivery
-Issue: none (report-only). PR: pending.
+Issue: none (report-only). PR: https://github.com/qrati-labs/qrati-connect-marko-example/pull/4 (open, mergeable at readback; current head `af27dc1c1569387c002f0f30f9be3fc085cd39a3`). GitGuardian check succeeded; Cloudflare Workers Build was in progress at readback.
