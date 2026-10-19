@@ -25,10 +25,11 @@ No confirmed defect in the bounded FAQ disclosure workflow. No issue or regressi
 - Preflight (provided script): 00:00:22, 2026-10-19 00:41:38–00:42:00 UTC (06:11:38–06:12:00 IST).
 - Candidate selection and isolation: measured from 00:42:00–00:42:54 UTC (06:12:00–06:12:54 IST), 00:00:54.
 - Workflow trace: measured from 00:42:54–00:43:11 UTC (06:12:54–06:13:11 IST), 00:00:17.
-- Total to documentation: 00:01:33, 2026-10-19 00:41:38–00:43:11 UTC (06:11:38–06:13:11 IST). Final delivery time will include documentation/PR work and is updated before push.
+- Documentation and delivery: measured from 00:43:11–00:43:46 UTC (06:13:11–06:13:46 IST), 00:00:35.
+- Total: 00:02:08, 2026-10-19 00:41:38–00:43:46 UTC (06:11:38–06:13:46 IST).
 
 ## Delivery
 
 - Issue: none (no confirmed defect).
-- PR: pending.
+- PR: https://github.com/qrati-labs/qrati-connect-marko-example/pull/5 (open; read back with base `main` at the recorded base SHA and head `0118d6b6b57194d122e00b376d072bf69236519d`; mergeable at readback; Cloudflare build check in progress).
 - Intended test command: none; no regression test authored.
