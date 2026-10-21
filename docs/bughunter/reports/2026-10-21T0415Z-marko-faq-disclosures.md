@@ -31,5 +31,5 @@ Activating a summary therefore relies on native browser disclosure behavior. The
 ## Delivery
 
 - Issue: none; no confirmed defect.
-- PR: pending.
+- PR: https://github.com/qrati-labs/qrati-connect-marko-example/pull/6 (open).
 - Tests authored: none.
