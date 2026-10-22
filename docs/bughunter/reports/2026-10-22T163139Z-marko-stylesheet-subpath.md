@@ -8,5 +8,5 @@
 - **Issue:** https://github.com/qrati-labs/qrati-connect-marko-example/issues/7
 - **Regression test:** `src/worker.test.ts` verifies a prefixed stylesheet request is passed to the static asset binding as `/styles.css`. Intended command: `node --experimental-strip-types --test src/worker.test.ts` (**NOT RUN BY BUGHUNTER**).
 - **Verification/limitations:** `git diff --check` passed. Unit tests, builds, and live route checks were not run; live checks were blocked by HTTP 403. Confidence high from the configured path transformation; deployed behavior remains unverified.
-- **PR/checks:** pending at report authoring.
-- **Timing:** pending timer ledger completion; no durations estimated.
+- **PR/checks:** https://github.com/qrati-labs/qrati-connect-marko-example/pull/8 — base `main`, head `a6ed37f90ec33082c11424efd01d03fc3f30803e`, mergeable; issue #7 linked via `Fixes #7`. GitGuardian passed; Workers Build was pending at last check.
+- **Timing (ledger, UTC):** preflight 2026-10-22T16:31:39Z–16:32:05Z, 00:00:27; audit 16:32:18Z–16:34:34Z, 00:02:15; total 16:31:39Z–16:34:34Z, 00:02:55. Unclassified interval: 00:00:13. IST (UTC+05:30): preflight 22:01:39–22:02:05; audit 22:02:18–22:04:34; total 22:01:39–22:04:34.
