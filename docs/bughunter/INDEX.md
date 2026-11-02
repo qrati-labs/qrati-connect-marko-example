@@ -1,3 +1,6 @@
+# BugHunter audit index
+
+- [2026-10-18 — Marko embed mount workflow](reports/20261018T003639Z-marko-embed-mount.md) — report-only; no confirmed defect in host-side initial widget mounting.
 # BugHunter reports
 
 - [20261017T235838Z — Marko embed/theme cycle](reports/20261017T235838Z-marko-embed-theme-cycle.md) — report-only; no confirmed defect. [PR](https://github.com/qrati-labs/qrati-connect-marko-example/pull/2)
