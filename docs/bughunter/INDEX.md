@@ -1,3 +1,8 @@
+# BugHunter reports
+
+| UTC | Scope | Result | Report |
+|---|---|---|---|
+| 2026-10-18 02:43 | Marko static asset delivery | No confirmed defect; report-only | [Report](reports/20261018T024338Z-marko-static-assets.md) |
 # BugHunter audit index
 
 - [2026-10-18 — Marko embed mount workflow](reports/20261018T003639Z-marko-embed-mount.md) — report-only; no confirmed defect in host-side initial widget mounting.
